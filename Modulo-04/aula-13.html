@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <!-- Formulários -->
+  <p>Em html5 podemos usar a tag form para criar um Formulário para fazer nossos envios, então tudo que estiver entre a tag form será considerado parte do formulário.</p>
+  <p>Temos algumas tag dentro do form para ter melhor experiência do usuário.</p>
+  <p>A tag input, está tag espera que usuário entre com alguma informação porém ela temos que especificar o tipo de informação, ex:
+    <ul>
+      <li>type text: Seria o campo de texto referente ao formulário</li>
+      <li>type email: Seria o campo de texto onde poderiamos digitar o nosso e-mail dentro do nosso formulário</li>
+      <li>type submit: Seria o nosso botão dentro do formulário e precisamos passar um valor ( value ) que seria o nome do nosso botão.</li>
+      <li>Text area: Seria uma area de texto, onde podemos digitar informações</li>
+      <li>Checkbox: Seria checkgem em pequenos blocos</li>
+      <li>Radio: Seria pequenos circulos para fazer marcaçoes de opicoes</li>
+      <li>Select: Onde passamos option e dentro de option mostramos as opções aos usuários</li>
+      <li>Option: Um tag onde usamos para realizar opçoes</li>
+      <li>Label: Mostramos a label do site.</li>
+      <li>Button: Mostra um botão mas sem válidação de campo.</li>
+    </ul>
+  </p>
+  <p>Dentro de text e email podemos passar uma outra tag que é a required que faz a válidação do que foi digitado e também temos a tag placeholder</p>
+  <form>
+    <label>Nome</label>
+    <input type="text" placeholder="Digite o seu nome..." required />
+    <br />
+    <label>E-mail</label>
+    <input type="email" placeholder="Entre com o seu email" required />
+    <br />
+    <input type="button" value="Botão" />
+    <input type="submit" value="Botão com validação de formulário" />
+    <hr />
+    <textarea name="name" rows="8" cols="80"></textarea>
+    <hr />
+    <select class="" name="">
+      <option>Item 1</option>
+      <option>Item 2</option>
+      <option>Item 3</option>
+    </select>
+    <hr />
+    <label>Valor1</label>
+    <input type="checkbox" name="item" value="valor1">
+    <label>Valor2</label>
+    <input type="checkbox" name="item" value="valor2">
+    <label>Valor3</label>
+    <input type="checkbox" name="item" value="valor3">
+    <hr />
+    <label>Item 1</label>
+    <input type="radio" name="item">
+    <label>Item 2</label>
+    <input type="radio" name="item">
+  </form>
+</body>
+
+</html>
