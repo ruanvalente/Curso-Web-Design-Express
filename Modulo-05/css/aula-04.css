@@ -1,0 +1,18 @@
+/* Primeiro nível de espeficiação */
+header.elemento > p {
+  color: orange;
+}
+
+ /* Segundo nivel de especificação  */
+/* header.elemento  {
+color: red;
+}
+
+/* Terceiro nível de especificação */
+/* .elemento {
+  color: blue;
+} */ 
+
+/* header p {
+  color: red;
+} */

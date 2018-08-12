@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2 - Classes, ids e níveis de especificação</title>
+  <style>
+    #logo {
+      text-align: center;
+      padding: 30px;
+    }
+    .header_css {
+      height: 100px;
+      background-color: #cce;
+    }
+    div#precedencia p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p>Em css precisamos entender um pequeno conceito de <strong>Classes e ID's</strong>. Cada um tem a sua respectiva função para a estilização dos elementos do documento, e assis também a sua especificação.</p>
+  <p>Podemos usar os <strong>ids</strong> para quando precisamos estilizar apenas um elemento do nosso documento, e não se pode repetir o mesmo ID na mesma página.</p>
+  <p>Quando precisamos estilizar mais de um elemento, usamos as <strong>classes</strong> css, pois usando as classes podemos estilizar mais de um elemento usando a mesma classe de estilização para o mesmo.</p>
+  <p>Podemos abrir a tag style dentro do nosso head para começar a fazer as nossas estiização.</p>
+  <header class="header_css">
+    <h2 id="logo">Seja bem vindo</h2>
+  </header>
+  <p>Para estilizar os ids usamos a anotação com o # e o nome do elemento com o id e classes usamos o . e o nome da classe.</p>
+  <p>O css usa também um nível de especificação para a estilização dos elementos, onde um elemento estilizado tem ou não mais precedencia em sua eslização ex:</p>
+  <div id="precedencia">
+    <p>Precedencia</p>
+  </div>
+  <p>Da forma que o css foi escrito, poderiamos estlizar da cor vermelha todas as tags P, porém usamos a especificação para definir apenas o elemento P que queriamos estlizar. Precisamos também lembra que o ID sempre prevalece em nível de especificação.</p>
+</body>
+</html>

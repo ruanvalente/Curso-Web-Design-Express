@@ -1,0 +1,26 @@
+/*
+div > h3 {
+   Nomeadas
+   color: red; 
+
+   Hexa 
+   color: #cece; 
+   color: #096; 
+
+   usando RGB 
+   color: rgb(100, 100, 100); 
+   Usando RGBA 
+  background-color: rgba(0, 200, 200, 0.6);
+}
+*/
+
+.elemento1 {
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.elemento2 {
+  background: rgb(52, 57, 66);
+  height: 50px;;
+}
