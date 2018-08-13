@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Manipulando fonts do proprio navegador */
+
+p {
+  font-family: 'Slabo 27px', serif; /* Font do google fonts*/
+  /* font-size: 15px; */
+  font-size: 1.0em; /* 16px/16=1.875em */
+  /* font-style: oblique; */
+  /* font-style: italic; */
+  /* font-style: initial; padrão*/
+  /* font-variant: small-caps; */
+}

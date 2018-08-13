@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Exemplo para manipulação de cores no texto, usando a propriedade background-color */
+
+/* div.ex1 > h1 {
+  background-color: #fff000;
+}
+
+div.ex1 > p {
+  background-color: #0f0;
+} */
+
+/* Exemplo para manipulaçao de imagens, usando a propriedade background-image */
+
+div.ex2 {
+  width: 100%;
+  height: 100px; 
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../img/logo-css3.png");
+}

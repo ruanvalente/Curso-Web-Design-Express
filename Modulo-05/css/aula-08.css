@@ -1,0 +1,61 @@
+/* ======== */
+/* Redimencionando usando px */
+/* ======== */
+/* .el1 {
+  background: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+
+#el2 {
+  background: green;
+  width: 100px;
+  height: 100px;
+  display: inline;
+} */
+
+/* ======== */
+/* Redimencionando para 100% de tela */
+/* ======== */
+html, body {
+  height: 100%;
+}
+/* .full {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: white;
+} */
+
+/* ======== */
+/* Removendo espaçamentos do navegador usando ( * ) .*/
+/* ======== */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ======== */
+/* Usando o vertial align.*/
+/* ======== */
+
+a {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.vertial {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #000fff;
+  vertical-align: middle;
+}
+
+p {
+  display: inline;
+  vertical-align: bottom;
+}

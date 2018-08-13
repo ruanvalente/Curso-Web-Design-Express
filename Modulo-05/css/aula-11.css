@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.box {
+  background: red;
+  width: 100px;
+  height: 220px;
+  /* overflow: auto; */
+}
+
+.box-filho {
+  background: green;
+  width: 100px;
+  height: 100px;
+}

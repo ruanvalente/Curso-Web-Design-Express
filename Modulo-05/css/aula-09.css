@@ -1,0 +1,55 @@
+/* =========== */
+/* Retirando espaçamentos pré-definidos */
+/* =========== */
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* =========== */
+/* Definindo altura da tela em 100% */
+/* =========== */
+
+html, body {
+  height: 100%;
+}
+
+/* =========== */
+/* Definindo max-width e min-width */
+/* =========== */
+
+/* .altura {
+  display: inline-block;
+  background: red;
+  height: 100%;
+  width: 100px;
+  max-height: 200px;
+} 
+*/
+
+/* .altura {
+  display: inline-block;
+  background: #721717;
+  height: 10%;
+  width: 100px;
+  min-height: 200px;
+} 
+*/
+
+/* 
+.largura {
+  display: inline-block;
+  background: rgb(35, 24, 141);
+  height: 100%;
+  width: 100px;
+  max-width: 30px;
+} */
+
+.largura {
+  display: inline-block;
+  background: #726f6f;
+  height: 100%;
+  width: 10px;
+  min-width: 300px;
+}

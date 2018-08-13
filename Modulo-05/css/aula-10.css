@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+div {
+  color: yellow;
+}
+
+/* Margin */
+
+/* .box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #693232;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+} */
+
+/* .box1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #693232;
+  margin-left: 10px;
+} */
+
+/* Padding */
+
+.box {
+  background: #cce;
+  height: 40px;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #f00;
+}
