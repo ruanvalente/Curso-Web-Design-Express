@@ -1,0 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+div[meu-atributo=atributo]{
+  color: red;
+}
+
+minhatag {
+  color: red;
+}

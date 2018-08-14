@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.box {
+  width: 300px;
+  background:orange;
+}
+
+/* 
+Quando usamos a pseudo-classe nth-of-type, estamos
+especificando o tipo da qual queremos manipular.
+*/
+/* .box .child:nth-of-type(2){
+  background: #000;
+  color: white;
+} */
+
+/* Podemos usar essa anotação para estilizar o elemento sem se preocupar com o tipo  */
+
+/* .box .child:nth-child(2) {
+  background: green;
+} */
+
+.box .child:nth-of-type(2n + 1){
+  background: greenyellow;
+}
+
+/*
+A pseudo-classe CSS de negação, :not(X), é uma notação funcional que recebe um seletor simples X como argumento. Ela seleciona um elemento que não é representado por seu argumento. X não pode conter outro seletor de negação.
+*/
+.parent:not(.box){
+  background: #000;
+}

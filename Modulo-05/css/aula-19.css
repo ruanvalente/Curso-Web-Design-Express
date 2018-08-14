@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Usando multiplas classes em css */
+
+div.cor.bg {
+  color: red;
+  background: #000;
+}

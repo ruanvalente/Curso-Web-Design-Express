@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Usando o transition e pseudo-classe */
+
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
+
+.box:hover .content {
+  color: red;
+}
+
+.content {
+  transition: 1s;
+} 
+*/
+
+/* Usando a propriedade focus */
+
+input:focus {
+  transition: 1s;
+  width: 250px;
+}
+
+input {
+  width: 100px;
+}

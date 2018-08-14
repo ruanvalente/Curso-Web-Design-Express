@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Float flex e text-align */
+/* Float */
+/* .clear {
+  clear: both;
+}
+header {
+  background: green;
+}
+header > div.logo {
+  padding: 30px;
+  float: left;
+}
+nav {
+  float: right;
+}
+ul {
+  padding: 20px;
+  display: inline-flex;
+  list-style-position: inside;
+} 
+*/
+/* Flex */
+/* 
+.contanier {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  border: 2px solid black;
+  width: 33.3%;
+  height: 400px;
+  background: red;
+} */
+
+/* Text-align */
+
+.contanier {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 2%;
+  background: grey;
+}
+
+.content {
+  margin-bottom: -4px;
+  display: inline-block;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  background: green;
+}
