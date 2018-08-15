@@ -1,0 +1,96 @@
+/* ================== */
+/* reset css */
+/* ================== */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ================== */
+/* Classes auxiliares */
+/* ================== */
+
+.container {
+  max-width: 968px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.clear {
+  clear: both;
+}
+
+/* w50 */
+
+.w50 {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* w100 */
+
+.w100 {
+  width: 100%;
+  float: left;
+  padding: 0 10px;
+}
+
+/* ================== */
+/* Estilo form  */
+/* ================== */
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #62b1df;
+  padding: 10px 0;
+  font-size: 24px;
+  border-bottom: 2px solid #62b1df;
+  margin: 5px;
+}
+
+body {
+  background-color: #cecece;
+}
+
+.form-group label {
+  display: block;
+  color: #646464;
+  margin: 2px 0;
+}
+
+.form-group input[type=text] {
+  width: 100%;
+  padding-left: 8px;
+  height: 30px;
+  margin: 2px 0;
+  border: 1px solid #ccc;
+}
+
+.form-group input[type=submit]{
+  width: 140px;
+  height: 40px;
+  background: #62b1df;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 0;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+/* button */
+
+/* media query */
+
+@media screen and (max-width: 500px){
+  .w50 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+/* Reset css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+/* clear both */
+
+.clear {
+  clear: both;
+}
+
+/* Container */
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Box-single */
+
+.box-sigle {
+  width: 100%;
+  height: 300px;
+  background: lightgrey;
+  float: left;
+  border: 2px solid black;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px){
+  .box-sigle {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .box-sigle {
+    width: 33.3%;
+  }
+}
