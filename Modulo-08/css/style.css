@@ -3,4 +3,356 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+/* ======================== */
+/* Classes auxiliares */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+.clear {
+  clear: both;
+}
+
+.w33 {
+  float: left;
+  width: 33.3%;
+}
+.w50 {
+  width: 50%;
+  float: left;
+}
+
+.center {
+  text-align: center;
+}
+
+/* ============================*/
+          /* MENU */
+/* =========================== */
+header {
+  padding: 8px;
+}
+.logo {
+  float: left;
+}
+
+.logo h2 {
+  font-weight: normal;
+  font-size: 23px;
+}
+nav.menu-desktop {
+  float: right;
+}
+
+
+nav.menu-desktop li.selected {
+  font-weight: bold;
+}
+
+nav.menu-desktop li {
+  padding: 0 10px;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+nav.menu-desktop ul {
+  position: relative;
+  top: 8px;
+}
+
+nav.menu-desktop a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav.menu-desktop a:hover {
+  text-decoration: underline;
+}
+
+/* ============================*/
+          /* SECTION-01 - BG */
+/* =========================== */
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+section.main-bg {
+  position: relative;
+  width: 100%;
+  padding: 80px 0px 200px 0px;
+  background: url("../images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+section.main-bg > .container {
+  position: relative;
+  z-index: 2;
+}
+
+section.main-bg h2 {
+  text-align: center;
+  color: #52aaa7;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+section.main-bg p {
+  text-align-last: left;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+/* ============================*/
+          /* SECTION-02 - DIFERENCIAIS  */
+/* =========================== */
+
+section.diferenciais {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.line-text h2 {
+  font-size: 27px;
+  font-weight: normal;
+}
+
+.line-text {
+  position: relative;
+  display: inline-block;
+  color: #52aaa7;
+}
+
+.line-text > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 3px;
+  background: #52aaa7;
+}
+
+.box-icons {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.icones-diferenciais {
+  margin-top: 35px;
+}
+
+.box-icons h2 {
+  color: #8a6b62;
+  font-size: 40px;
+}
+
+.box-icons p {
+  color: #646464;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+/* ============================*/
+          /* SECTION-03 - SOBRE */
+/* =========================== */
+section.sobre-equipe {
+  padding: 30px 0;
+  background: #cecece;
+}
+
+section.sobre-equipe > .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equipe-container {
+  width: 50%;
+}
+
+.sobre-container {
+  width: 50%;
+}
+.sobre-container p {
+  color: black;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.avatar-box {
+  margin-top: 20px;
+}
+.img-avatar {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: 100% 100%;
+}
+
+.descricao-avatar {
+  padding: 0 10px;
+  width: calc( 100% - 70px );
+  display: inline-block;
+}
+
+.descricao-avatar h3 {
+  color: #646464;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.descricao-avatar p {
+  color: #646464;
+  font-weight: lighter;
+}
+
+/* ============================*/
+          /* SECTION-04 - INSCRICAO*/
+/* =========================== */
+section.inscricao {
+  background: #52aaa7;
+  padding: 20px 0;
+}
+
+h2.inscricao-texto {
+  color: #fff;
+  font-weight: normal;
+}
+
+.inscricao-form input[type=text]{
+  width: calc(80% - 120px);
+  height: 40px;
+  background: #fff;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+.inscricao-form input[type=submit]{
+  width: 120px;
+  height: 40px;
+  background: #1d6c64;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* ============================*/
+          /* SECTION 05 - CARDS  */
+/* =========================== */
+
+section.cards {
+  padding: 30px 0;
+}
+
+.card-single {
+  width: 33.3%;
+  float: left;
+  padding: 50px;
+}
+
+.card-single img {
+  width: 100%;
+}
+
+.card-single h3 {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 19px;
+}
+
+.card-single p {
+  margin: 10px 0;
+  font-weight: lighter;
+  font-size: 16px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  
+}
+
+/* ============================*/
+  /*  FOOTERS - INFORMAÇÕES */
+/* =========================== */
+
+footer.footer1 {
+  background: #52aaa7;
+  padding: 20px 0;
+  color: #fff;
+}
+
+footer.footer1 h2 {
+  font-weight: normal;
+  font-size: 23px;
+}
+
+footer.footer1 p {
+  margin-top: 8px;
+  font-weight: lighter;
+}
+
+footer.footer1 a {
+  color: #fff;
+  display: block;
+}
+
+div.group-icons a {
+  display: inline-block;
+  margin: 15px 10px;
+  font-size: 18px;
+}
+footer.footer2 {
+  padding: 15px 0;
+  color: #fff;
+  text-align: center;
+  background: #1d6c64;
+}
+
+/* ============================*/
+          /* MEDIA SCREEN */
+/* =========================== */
+@media screen and (max-width: 768px) {
+  footer.footer1 {
+    text-align: center;
+  }
+  .card-single {
+    width: 100%;
+  }
+  .w50, .w33 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .box-icons {
+    width: 100%;
+  }
+
+  .equipe-container {
+    width: 100%;
+  }
+
+  .sobre-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-single {
+    padding: 10px;
+  }
 }
