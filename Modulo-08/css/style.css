@@ -1,3 +1,7 @@
+/* ========================================= */
+            /*  Home */
+/* ========================================= */
+
 /* Main */
 * {
   padding: 0px;
@@ -42,6 +46,10 @@ header {
 .logo h2 {
   font-weight: normal;
   font-size: 23px;
+}
+.logo a {
+  text-decoration: none;
+  color: #000;
 }
 nav.menu-desktop {
   float: right;
@@ -355,9 +363,207 @@ footer.footer2 {
   background: #1d6c64;
 }
 
+/* ========================================= */
+            /*  SOBRE */
+/* ========================================= */
+section.title-page {
+  padding: 30px;
+  width: 100%;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+section.title-page > .container {
+  position: relative;
+  z-index: 101;
+}
+
+.overlay__title-page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section.title-page h2 {
+  color: #52aaa7;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+section.title-page p {
+  text-align-last: left;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 15px;
+  font-weight: lighter;
+}
+
+/* ============================*/
+    /* SOBRE CONTEUDO EMPRESA */
+/* =========================== */
+section.sobre__conteudo__empresa {
+  padding: 30px 0;
+}
+
+.sobre__single__empresa img {
+  max-width: 100%;
+  float: left;
+  width: 50%;
+}
+
+.sobre__single__empresa p {
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 50%;
+  float: left;
+}
+
+.paragraph__single_empresa {
+  margin-top: 15px;
+}
+
+.paragraph__single_empresa p {
+  margin-top: 8px;
+}
+
+/* ============================*/
+    /* SOBRE - PARALLAX SECTION */
+/* =========================== */
+section.parallax-efect {
+  padding: 30px 0;
+  width: 100%;
+  min-height: 200px;
+  background-image: url('../images/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  text-align: center;
+}
+
+section.parallax-efect h2.call-parallax {
+  border: 1px solid #44d4c5;
+  padding: 5px 25px;
+  color: #44d4c5;
+  display: inline-block;
+  font-size: 18px;
+}
+
+section.parallax-efect p {
+  color: #fff;
+  margin-top: 10px;
+  /* font-weight: lighter; */
+}
+
+/* ============================*/
+    /* SOBRE - CONHEÇA A EQUIPE */
+/* =========================== */
+
+section.equipe {
+  padding: 40px 0;
+}
+
+.equipe-circle {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equipe-circle-single {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.equipe-circle-single h3 {
+  margin-top: 8px;
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.equipe-circle-single p {
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+.avatar-single {
+  position: relative;
+  width: 60%;
+  padding-top: 60%;
+  margin: 0 auto;
+}
+
+.avatar-single-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  background-color: #ccc;
+  background-size: 100% 100%;
+}
+
+/* ============================*/
+     /* SOBRE - FINAL */
+/* =========================== */
+section.sobre__final {
+  background: rgb(219, 216, 216);
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+section.sobre__final p {
+  font-size: 17px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.card-text {
+  margin-top: 10px;
+  width: 80%;
+  position: relative;
+}
+.card-text img {
+  max-width: 100%;
+}
+
+.card-text h3 {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  left: 10px;
+  bottom: 10px;
+}
+
 /* ============================*/
           /* MEDIA SCREEN */
 /* =========================== */
+
+@media screen and (max-width: 894px) {
+  .equipe-circle-single {
+    width: 100%;
+    padding: 0 8px;
+    margin-bottom: 30px
+  }
+}
+
+@media screen and (max-width: 914px) {
+  .sobre__single__empresa img {
+    width: 100%;
+  }
+  
+  .sobre__single__empresa p {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   footer.footer1 {
     text-align: center;
@@ -381,9 +587,14 @@ footer.footer2 {
     width: 100%;
     margin-top: 50px;
   }
+
 }
 
 @media screen and (max-width: 500px) {
+  .card-text {
+    width: 100%;
+  }
+  
   nav.menu-desktop {
     display: none;
   }
