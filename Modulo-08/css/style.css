@@ -72,6 +72,38 @@ nav.menu-desktop a:hover {
   text-decoration: underline;
 }
 
+/* Menu Mobile */
+
+nav.menu-mobile {
+  display: none;
+  float: right;
+}
+nav.menu-mobile h2  {
+  cursor: pointer;
+}
+
+nav.menu-mobile ul {
+  display: none;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: 999;
+  text-align: center;
+}
+nav.menu-mobile li {
+  padding: 8px 0;
+  border-bottom: 1px solid #000;
+}
+nav.menu-mobile a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav.menu-mobile li.selected {
+  background: rgb(221, 216, 216);
+}
 /* ============================*/
           /* SECTION-01 - BG */
 /* =========================== */
@@ -352,6 +384,12 @@ footer.footer2 {
 }
 
 @media screen and (max-width: 500px) {
+  nav.menu-desktop {
+    display: none;
+  }
+  nav.menu-mobile {
+    display: block;
+  }
   .card-single {
     padding: 10px;
   }

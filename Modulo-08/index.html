@@ -24,8 +24,18 @@
       </div>
       <nav class="menu-desktop">
         <ul>
-          <li class="selected"><a href="">Home</a></li>
-          <li><a href="">Sobre</a></li>
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Menu Mobile -->
+      <nav class="menu-mobile">
+        <h2> <i class="fa fa-bars"></i></h2>
+        <ul>
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
           <li><a href="">Contato</a></li>
         </ul>
       </nav>
@@ -167,7 +177,7 @@
 
       <div class="w33">
           <h2>Links Úteis</h2>
-          <a href="https://www.dankicode.com" target="_blank">Danki.code</a>
+          <a href="https://ruantux.wordpress.com/" target="_blank">ruantux</a>
           <a href="https://www.w3schools.com" target="_blank">W3schools</a>
         </div>
 
@@ -189,6 +199,14 @@
       <p>Todos direitos reservados &copy;</p>
     </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+    $('nav.menu-mobile h2').click(function(){
+      $('nav.menu-mobile ul').slideToggle();
+    });
+  </script>
 </body>
 
 </html>
