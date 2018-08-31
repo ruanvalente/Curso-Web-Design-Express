@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="curso-web-design, estudo">
+  <!-- Meta tags de SEO -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projeto - Web Design Express</title>
+
+  <!-- OpenSans -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Header e menu -->
+  <header>
+    <div class="container">
+      <div class="logo"><a href="index.html">
+          <h2>Sys.code</h2>
+      </div>
+      </a>
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li class="selected"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Menu Mobile -->
+      <nav class="menu-mobile">
+        <h2> <i class="fa fa-bars"></i></h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li class="selected"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+  </header>
+
+  <!-- Title page -->
+
+  <section style="background-image: url('../Modulo-08/images/img2.jpg');" class="title-page">
+    <div class="overlay__title-page"></div>
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aliquam tempora recusandae! Voluptatem eos,
+        laborum repellendus harum qui accusamus reprehenderit, nulla, quis tempore ab numquam minima explicabo consectetur
+        a dolore.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quod ex ut voluptatum deserunt, dolores, recusandae,
+        quam id fuga aspernatur fugiat sequi dolorum. Quidem reprehenderit assumenda magni veritatis, quam ducimus?</p>
+    </div> <!-- container -->
+  </section>
+
+  <section class="contato">
+    <div class="container">
+      <div class="w60 formulario">
+        <h2>Entre em contanto conosco</h2>
+        <!-- Formulario -->
+        <form action="">
+          <div class="w50">
+            <input type="text" placeholder="Nome..." required>
+          </div>
+
+          <div class="w50">
+            <input type="text" placeholder="Sobrenome..." required>
+          </div>
+
+          <div class="w100">
+            <input type="email" placeholder="E-mail..." required>
+          </div>
+
+          <div class="w100">
+            <textarea placeholder="Sua mensagem para nós..."></textarea>
+          </div>
+          <div class="w50">
+            <input type="button" value="Enviar">
+          </div>
+        </form>
+      </div>
+
+      <!-- w40 form -->
+      <div class="w40 tags-form">
+        <h2><i class="fa fa-comment"></i> Fale agora com a nossa equipe!!</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae aperiam ratione animi error eos soluta dicta
+          sunt, eius fugit nobis! Doloribus laborum culpa eos ad at inventore tenetur modi voluptatum.</p>
+
+        <p class="tag-contato"> <i class="fab fa-facebook"></i> /ruanvalente</p>
+        <p class="tag-contato"> <i class="fab fa-twitter"></i> /@ruantux</p>
+        <p class="tag-contato"> <i class="fab fa-github"></i> /ruanvalente</p>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+  </section>
+
+  <!-- Footer 1 -->
+  <footer class="footer1">
+    <div class="container">
+      <div class="w33">
+        <h2>Aonde estamos ?</h2>
+        <p><i class="fa fa-map-marker-alt"></i> Rua: Fulando de tal, Montese, Belém-PA</p>
+        <p><i class="fas fa-phone"></i> (091) 99999-9999</p>
+      </div>
+
+      <div class="w33">
+        <h2>Links Úteis</h2>
+        <a href="https://ruantux.wordpress.com/" target="_blank">ruantux</a>
+        <a href="https://www.w3schools.com" target="_blank">W3schools</a>
+      </div>
+
+      <div class="w33">
+        <h2>Conecte-se conosco</h2>
+        <div class="group-icons">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+
+  <footer class="footer2">
+    <div class="container">
+      <p>Todos direitos reservados &copy;</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $('nav.menu-mobile h2').click(function () {
+        $('nav.menu-mobile ul').slideToggle();
+      });
+    </script>
+  </footer>
+</body>
+
+</html>
